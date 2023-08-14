@@ -1,0 +1,16 @@
+Para correr un archivo de Ts necesitamos ejecutar el comando
+tsc <archivo.ts>
+node <archivo.js>
+
+Para correr un archivo de Ts en un comando podemos ejecutarlo con el siguiente comando
+tsc <archivo.ts> && node <archivo.js>
+
+Para correr un archivo de Ts que normalmente esta en otra carpeta puedes ejecutarlo con el siguiente comando
+tsc --outDir <carpeta> <archivo.ts> && node <carpeta>/<archivo.js>
+
+Para correr un archivo de Ts y que por cada cambio que se realize se vuelva a compilar podemos usar el siguiente comando
+tsc --outDir <carpeta> <archivo.ts> -w
+
+Para añadir un archivo para manejar la configuración de nuestro proyecto usamos el comando 
+tsc --init
+

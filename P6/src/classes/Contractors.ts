@@ -1,0 +1,3 @@
+class Contractors extends Employee {
+    
+}
